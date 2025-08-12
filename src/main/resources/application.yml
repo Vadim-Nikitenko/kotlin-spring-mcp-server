@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: mcp-server-example
+
+weather:
+  api:
+    key: ${API_KEY} # free from www.weatherapi.com
